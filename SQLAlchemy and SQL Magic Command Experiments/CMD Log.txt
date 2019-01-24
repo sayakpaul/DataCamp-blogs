@@ -1,0 +1,166 @@
+Microsoft Windows [Version 6.1.7600]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\SAYAK>pip install ipython-sql # SQL magic
+Traceback (most recent call last):
+  File "c:\users\sayak\anaconda3\lib\runpy.py", line 193, in _run_module_as_main
+
+    "__main__", mod_spec)
+  File "c:\users\sayak\anaconda3\lib\runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\SAYAK\Anaconda3\Scripts\pip.exe\__main__.py", line 5, in <modul
+e>
+  File "c:\users\sayak\anaconda3\lib\site-packages\pip\_internal\__init__.py", l
+ine 42, in <module>
+    from pip._internal import cmdoptions
+  File "c:\users\sayak\anaconda3\lib\site-packages\pip\_internal\cmdoptions.py",
+ line 16, in <module>
+    from pip._internal.index import (
+  File "c:\users\sayak\anaconda3\lib\site-packages\pip\_internal\index.py", line
+ 38, in <module>
+    from pip._internal.wheel import Wheel, wheel_ext
+  File "c:\users\sayak\anaconda3\lib\site-packages\pip\_internal\wheel.py", line
+ 7, in <module>
+    import compileall
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 764, in get_code
+  File "<frozen importlib._bootstrap_external>", line 833, in get_data
+KeyboardInterrupt
+
+C:\Users\SAYAK>pip install ipython-sql
+Collecting ipython-sql
+  Downloading https://files.pythonhosted.org/packages/ab/df/427e7cf05ffc67e78672
+ad57dce2436c1e825129033effe6fcaf804d0c60/ipython_sql-0.3.9-py2.py3-none-any.whl
+Requirement already satisfied: ipython>=1.0 in c:\users\sayak\anaconda3\lib\site
+-packages (from ipython-sql) (6.4.0)
+Requirement already satisfied: ipython-genutils>=0.1.0 in c:\users\sayak\anacond
+a3\lib\site-packages (from ipython-sql) (0.2.0)
+Requirement already satisfied: six in c:\users\sayak\anaconda3\lib\site-packages
+ (from ipython-sql) (1.11.0)
+Requirement already satisfied: sqlalchemy>=0.6.7 in c:\users\sayak\anaconda3\lib
+\site-packages (from ipython-sql) (1.2.7)
+Collecting prettytable (from ipython-sql)
+  Downloading https://files.pythonhosted.org/packages/ef/30/4b0746848746ed5941f0
+52479e7c23d2b56d174b82f4fd34a25e389831f5/prettytable-0.7.2.tar.bz2
+Collecting sqlparse (from ipython-sql)
+  Downloading https://files.pythonhosted.org/packages/65/85/20bdd72f4537cf2c4d5d
+005368d502b2f464ede22982e724a82c86268eda/sqlparse-0.2.4-py2.py3-none-any.whl
+Requirement already satisfied: colorama; sys_platform == "win32" in c:\users\say
+ak\anaconda3\lib\site-packages (from ipython>=1.0->ipython-sql) (0.3.9)
+Requirement already satisfied: prompt-toolkit<2.0.0,>=1.0.15 in c:\users\sayak\a
+naconda3\lib\site-packages (from ipython>=1.0->ipython-sql) (1.0.15)
+Requirement already satisfied: backcall in c:\users\sayak\anaconda3\lib\site-pac
+kages (from ipython>=1.0->ipython-sql) (0.1.0)
+Requirement already satisfied: jedi>=0.10 in c:\users\sayak\anaconda3\lib\site-p
+ackages (from ipython>=1.0->ipython-sql) (0.12.0)
+Requirement already satisfied: pygments in c:\users\sayak\anaconda3\lib\site-pac
+kages (from ipython>=1.0->ipython-sql) (2.2.0)
+Requirement already satisfied: pickleshare in c:\users\sayak\anaconda3\lib\site-
+packages (from ipython>=1.0->ipython-sql) (0.7.4)
+Requirement already satisfied: simplegeneric>0.8 in c:\users\sayak\anaconda3\lib
+\site-packages (from ipython>=1.0->ipython-sql) (0.8.1)
+Requirement already satisfied: traitlets>=4.2 in c:\users\sayak\anaconda3\lib\si
+te-packages (from ipython>=1.0->ipython-sql) (4.3.2)
+Requirement already satisfied: setuptools>=18.5 in c:\users\sayak\anaconda3\lib\
+site-packages (from ipython>=1.0->ipython-sql) (39.1.0)
+Requirement already satisfied: decorator in c:\users\sayak\anaconda3\lib\site-pa
+ckages (from ipython>=1.0->ipython-sql) (4.3.0)
+Requirement already satisfied: wcwidth in c:\users\sayak\anaconda3\lib\site-pack
+ages (from prompt-toolkit<2.0.0,>=1.0.15->ipython>=1.0->ipython-sql) (0.1.7)
+Requirement already satisfied: parso>=0.2.0 in c:\users\sayak\anaconda3\lib\site
+-packages (from jedi>=0.10->ipython>=1.0->ipython-sql) (0.2.0)
+Building wheels for collected packages: prettytable
+  Running setup.py bdist_wheel for prettytable ... done
+  Stored in directory: C:\Users\SAYAK\AppData\Local\pip\Cache\wheels\80\34\1c\39
+67380d9676d162cb59513bd9dc862d0584e045a162095606
+Successfully built prettytable
+Installing collected packages: prettytable, sqlparse, ipython-sql
+Successfully installed ipython-sql-0.3.9 prettytable-0.7.2 sqlparse-0.2.4
+You are using pip version 18.0, however version 18.1 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' comm
+and.
+
+C:\Users\SAYAK>python -m pip install --upgrade pip
+Collecting pip
+  Downloading https://files.pythonhosted.org/packages/46/dc/7fd5df840efb3e56c8b4
+f768793a237ec4ee59891959d6a215d63f727023/pip-19.0.1-py2.py3-none-any.whl (1.4MB)
+
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 1.4MB 572kB/s
+Installing collected packages: pip
+  Found existing installation: pip 18.0
+    Uninstalling pip-18.0:
+      Successfully uninstalled pip-18.0
+Successfully installed pip-19.0.1
+
+C:\Users\SAYAK>python
+Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:23:52) [MSC v.1900 32 bi
+t (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import sqlalchemy
+>>> engine = create_engine('postgresql://postgres:postgres@localhost:5432/dataca
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'create_engine' is not defined
+>>> from sqlalchemy import create_engine
+>>> engine = create_engine('postgresql://postgres:postgres@localhost:5432/dataca
+mp')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\SAYAK\Anaconda3\lib\site-packages\sqlalchemy\engine\__init__.py
+", line 424, in create_engine
+    return strategy.create(*args, **kwargs)
+  File "C:\Users\SAYAK\Anaconda3\lib\site-packages\sqlalchemy\engine\strategies.
+py", line 81, in create
+    dbapi = dialect_cls.dbapi(**dbapi_args)
+  File "C:\Users\SAYAK\Anaconda3\lib\site-packages\sqlalchemy\dialects\postgresq
+l\psycopg2.py", line 584, in dbapi
+    import psycopg2
+ModuleNotFoundError: No module named 'psycopg2'
+>>> engine = create_engine('postgresql+pg8000://postgres:postgres@localhost:5432
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\SAYAK\Anaconda3\lib\site-packages\sqlalchemy\engine\__init__.py
+", line 424, in create_engine
+    return strategy.create(*args, **kwargs)
+  File "C:\Users\SAYAK\Anaconda3\lib\site-packages\sqlalchemy\engine\strategies.
+py", line 81, in create
+    dbapi = dialect_cls.dbapi(**dbapi_args)
+  File "C:\Users\SAYAK\Anaconda3\lib\site-packages\sqlalchemy\dialects\postgresq
+l\pg8000.py", line 207, in dbapi
+    return __import__('pg8000')
+ModuleNotFoundError: No module named 'pg8000'
+>>> quit()
+
+C:\Users\SAYAK>pip install psycopg2
+Collecting psycopg2
+  Downloading https://files.pythonhosted.org/packages/4d/cc/a7f0e5f99a8c728fc69c
+e5f3af427351ba7f8a2b8d0c3283e3d40005a917/psycopg2-2.7.7-cp36-cp36m-win32.whl (85
+5kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 860kB 556kB/s
+Installing collected packages: psycopg2
+Successfully installed psycopg2-2.7.7
+
+C:\Users\SAYAK>python
+Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:23:52) [MSC v.1900 32 bi
+t (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from sqlalchemy import create_engine
+>>> engine = create_engine('postgresql://postgres:postgres@localhost:5432/dataca
+mp')
+>>> df = pd.read_sql('select * from student', engine)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'pd' is not defined
+>>> import pandas as pd
+>>> df = pd.read_sql('select * from student', engine)
+>>> df.head()
+  student_id  student_name student_year
+0          1    Zaid Alam           2nd
+1          2  Mamta kumari          2nd
+2          3    Aisha Anis          2nd
+3          4     Faiz Alam          2nd
+4          5  Aniket Kumar          2nd
+>>>
